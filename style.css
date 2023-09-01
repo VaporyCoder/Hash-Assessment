@@ -1,0 +1,28 @@
+body {
+    font-family: Arial;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: grey ;
+    max-width: fit-content;
+    border-radius: 15%;
+}
+
+li {
+    font-size: 24px;
+    margin: 1rem;
+    margin-left: -5px;
+}
+
+div {
+    border: 2px solid black;
+    max-width: fit-content;
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
