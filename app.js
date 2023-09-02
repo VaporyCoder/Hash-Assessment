@@ -38,10 +38,10 @@ const render = () => {
   });
   //^^ If puppy id matches the hash then proceed with function ^^
 
-  let detailDivHTML = "The NPFL 2023-24 Season";
+  let detailDivHTML = "Select A Player To See Their Info";
   if (puppy) {
     detailDivHTML = `
-  <img class='playerPic' src='${puppy.imageUrl}' style=' border-radius: 15px'/>
+  <img class='playerPic' src='${puppy.imageUrl}'/>
   <h2>${puppy.name}</h2>
   <p>${puppy.breed}</p>
   <p>${puppy.status}</p>
