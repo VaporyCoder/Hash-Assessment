@@ -3,52 +3,76 @@
 }
 
 body {
-    font-family: Arial;
-    background-image: url(https://i.etsystatic.com/31176998/r/il/ddaecd/4040247902/il_fullxfull.4040247902_q85k.jpg);
-    background-size: cover;
-    background-position: center;
+    font-family: Verdana;
+    color: white;
 }
 
-h1 {
-    font-size: 40px;
-    text-align: center;
-}
-
-.container {
-    padding: 1rem;
-    border: 2px solid black;
+.logoDiv {
     display: flex;
-}
-
-ul {
-    list-style: none;
-    display: flex;
-    flex-direction: column;
     justify-content: center;
-    background-color: darkslategrey ;
+    padding: 0;
 }
 
-li {
-    font-size: 30px;
-    margin: 1rem;
-    margin-left: -5px;
+.logo {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
 }
 
 a {
     text-decoration: none;
-    color: white;
+}
+
+.btn {
+    margin: 1rem;
+    font-weight: 0;
+    font-size: 14px;
+    color: #fff;
+    background-color: #1e90ff;
+    padding: 10px 30px;
+    border: solid #1e90ff 2px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 50px;
+    transition : 1000ms;
+    transform: translateY(0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transition : 1000ms;
+    padding: 10px 50px;
+    transform : translateY(-0px);
+    background-color: #fff;
+    color: #1e90ff;
+    border: solid 2px #1e90ff;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card {
-    border: 2px solid black;
-    background-color: white;
+    -webkit-box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px 5px rgba(0,0,0,0); 
+    border-radius: 15px;
+    background-color: dodgerblue;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-    margin-left: 25rem;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    
 }
 
-img {
-    border-radius: 50%;
-    height: 50vh;
-    width: auto;
+.playerPic {
+    height: 70vh;
 }
