@@ -1,6 +1,6 @@
 const playerList = document.querySelector("ul");
 //^^ This is where the player list will be displayed ^^
-const detailDiv = document.querySelector("div");
+const detailDiv = document.querySelector(".card");
 //^^ This is where I want to display the puppy's stats ^^
 
 let players;
@@ -39,7 +39,7 @@ const render = ()=> {
   let detailDivHTML = 'The NPFL 2023-24 Season'
   if(puppy) {
   detailDivHTML = `
-  <img src='${puppy.imageUrl}' style='height: 50vh'/>
+  <img src='${puppy.imageUrl}'/>
   </br>
   ${puppy.name}
   </br>
